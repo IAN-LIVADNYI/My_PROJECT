@@ -1,0 +1,41 @@
+{
+    "name": "my_project_from_scratch",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "wdio": "wdio run wdio.conf.js",
+        "win_test": "npx wdio wdio.conf.js",
+        "win_report": "allure generate --clean",
+        "win_clean": "rd allure-results /s/q && rd allure-report /s/q"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/IAN-LIVADNYI/My_PROJECT_from_scratch.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/IAN-LIVADNYI/My_PROJECT_from_scratch/issues"
+    },
+    "homepage": "https://github.com/IAN-LIVADNYI/My_PROJECT_from_scratch#readme",
+    "devDependencies": {
+        "@wdio/allure-reporter": "^7.16.14",
+        "@wdio/cli": "^7.16.16",
+        "@wdio/local-runner": "^7.16.16",
+        "@wdio/mocha-framework": "^7.16.15",
+        "@wdio/spec-reporter": "^7.16.14",
+        "chai": "^4.3.6",
+        "chromedriver": "^98.0.1",
+        "geckodriver": "^3.0.1",
+        "wdio-chromedriver-service": "^7.2.8",
+        "wdio-edgedriver-service": "^1.2.0",
+        "wdio-geckodriver-service": "^2.1.0"
+    },
+    "dependencies": {
+        "axios": "^0.26.0",
+        "webdriver-manager": "^12.1.8"
+    }
+}
