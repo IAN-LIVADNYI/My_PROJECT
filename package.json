@@ -29,7 +29,9 @@
         "@wdio/spec-reporter": "^7.16.14",
         "chai": "^4.3.6",
         "chromedriver": "^98.0.1",
+        "edgedriver": "^4.17134.1",
         "geckodriver": "^3.0.1",
+        "ms-chromium-edge-driver": "^0.5.1",
         "wdio-chromedriver-service": "^7.2.8",
         "wdio-edgedriver-service": "^1.2.0",
         "wdio-geckodriver-service": "^2.1.0"
