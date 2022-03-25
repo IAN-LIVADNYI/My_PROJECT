@@ -1,0 +1,182 @@
+{
+  "actions": [
+    {
+      "type": "pointer",
+      "id": "pointer1",
+      "parameters": {
+        "pointerType": "mouse"
+      },
+      "actions": [
+        {
+          "type": "pointerMove",
+          "origin": {
+            "sessionId": "040e012d-bf24-4b1c-9762-b3895765e923",
+            "elementId": "b37c50e8-a276-4834-9084-93899e636265",
+            "element-6066-11e4-a52e-4f735466cecf": "b37c50e8-a276-4834-9084-93899e636265",
+            "selector": "#email",
+            "parent": {
+              "sessionId": "040e012d-bf24-4b1c-9762-b3895765e923",
+              "capabilities": {
+                "acceptInsecureCerts": false,
+                "browserName": "firefox",
+                "browserVersion": "98.0.1",
+                "moz:accessibilityChecks": false,
+                "moz:buildID": "20220313140707",
+                "moz:debuggerAddress": "localhost:49520",
+                "moz:geckodriverVersion": "0.30.0",
+                "moz:headless": false,
+                "moz:processID": 16848,
+                "moz:profile": "C:\\Users\\ianli\\AppData\\Local\\Temp\\rust_mozprofileg6n8Yu",
+                "moz:shutdownTimeout": 60000,
+                "moz:useNonSpecCompliantPointerOrigin": false,
+                "moz:webdriverClick": true,
+                "pageLoadStrategy": "normal",
+                "platformName": "windows",
+                "platformVersion": "10.0",
+                "proxy": {},
+                "setWindowRect": true,
+                "strictFileInteractability": false,
+                "timeouts": {
+                  "implicit": 0,
+                  "pageLoad": 300000,
+                  "script": 30000
+                },
+                "unhandledPromptBehavior": "dismiss and notify"
+              },
+              "config": {
+                "specs": [
+                  "C:\\Users\\ianli\\Desktop\\WebStorm__PROJECT\\My_PROJECT_from_scratch\\test\\specs\\login.spec.js"
+                ],
+                "suites": {},
+                "exclude": [],
+                "logLevel": "warn",
+                "logLevels": {},
+                "excludeDriverLogs": [],
+                "bail": 0,
+                "waitforInterval": 500,
+                "waitforTimeout": 10000,
+                "framework": "Mocha",
+                "reporters": [
+                  "spec",
+                  [
+                    "allure",
+                    {
+                      "outputDir": "allure-results"
+                    }
+                  ]
+                ],
+                "services": [
+                  "chromedriver",
+                  "geckodriver",
+                  "edgedriver"
+                ],
+                "maxInstances": 15,
+                "maxInstancesPerCapability": 100,
+                "filesToWatch": [],
+                "connectionRetryTimeout": 120000,
+                "connectionRetryCount": 3,
+                "execArgv": [],
+                "runnerEnv": {},
+                "runner": "local",
+                "specFileRetries": 0,
+                "specFileRetriesDelay": 0,
+                "specFileRetriesDeferred": false,
+                "reporterSyncInterval": 100,
+                "reporterSyncTimeout": 5000,
+                "cucumberFeaturesWithLineNumbers": [
+                  "C:\\Users\\ianli\\Desktop\\WebStorm__PROJECT\\My_PROJECT_from_scratch\\test\\specs\\login.spec.js:15"
+                ],
+                "autoCompileOpts": {
+                  "autoCompile": true,
+                  "tsNodeOpts": {
+                    "transpileOnly": true
+                  },
+                  "babelOpts": {}
+                },
+                "mochaOpts": {
+                  "timeout": 60000,
+                  "ui": "bdd"
+                },
+                "jasmineOpts": {
+                  "defaultTimeoutInterval": 10000
+                },
+                "cucumberOpts": {
+                  "timeout": 10000
+                },
+                "onPrepare": [
+                  null
+                ],
+                "onWorkerStart": [],
+                "before": [],
+                "beforeSession": [
+                  null,
+                  null
+                ],
+                "beforeSuite": [],
+                "beforeHook": [],
+                "beforeTest": [],
+                "beforeCommand": [],
+                "afterCommand": [],
+                "afterTest": [
+                  null
+                ],
+                "afterHook": [],
+                "afterSuite": [],
+                "afterSession": [
+                  null,
+                  null
+                ],
+                "after": [],
+                "onComplete": [
+                  null
+                ],
+                "onReload": [],
+                "beforeFeature": [],
+                "beforeScenario": [],
+                "beforeStep": [],
+                "afterStep": [],
+                "afterScenario": [],
+                "afterFeature": [],
+                "baseUrl": "https://enduring.netlify.app",
+                "_": [
+                  "run"
+                ],
+                "f": "Mocha",
+                "spec": [
+                  "C:\\Users\\ianli\\Desktop\\WebStorm__PROJECT\\My_PROJECT_from_scratch\\test\\specs\\login.spec.js:15"
+                ],
+                "$0": "node_modules\\@wdio\\cli\\bin\\wdio.js",
+                "config-path": "C:/Users/ianli/Desktop/WebStorm__PROJECT/My_PROJECT_from_scratch/wdio.conf.js",
+                "ignoredWorkerServices": [],
+                "port": 49513
+              }
+            },
+            "isReactElement": false
+          },
+          "x": 0,
+          "y": 0
+        },
+        {
+          "type": "pointerDown",
+          "button": 0
+        },
+        {
+          "type": "pointerUp",
+          "button": 0
+        },
+        {
+          "type": "pause",
+          "duration": 10
+        },
+        {
+          "type": "pointerDown",
+          "button": 0
+        },
+        {
+          "type": "pointerUp",
+          "button": 0
+        }
+      ]
+    }
+  ]
+}

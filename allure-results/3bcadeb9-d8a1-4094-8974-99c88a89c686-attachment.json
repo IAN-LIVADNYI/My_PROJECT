@@ -1,0 +1,18 @@
+{
+  "actions": [
+    {
+      "type": "key",
+      "id": "keyboard",
+      "actions": [
+        {
+          "type": "keyDown",
+          "value": "Delete"
+        },
+        {
+          "type": "keyUp",
+          "value": "Delete"
+        }
+      ]
+    }
+  ]
+}

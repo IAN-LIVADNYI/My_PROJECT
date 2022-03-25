@@ -1,3 +1,4 @@
+const url = "https://enduring.netlify.app";
 exports.config = {
     //
     // ====================
@@ -43,7 +44,7 @@ exports.config = {
     // and 30 processes will get spawned. The property handles how many capabilities
     // from the same test should run tests.
     //
-    maxInstances: 10,
+    maxInstances: 15,
     //
     // If you have trouble getting all important capabilities together, check out the
     // Sauce Labs platform configurator - a great tool to configure your capabilities:
@@ -64,14 +65,16 @@ exports.config = {
         // excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs
         // excludeDriverLogs: ['bugreport', 'server'],
         },
+
+
         {
             maxInstances: 5,
-            browserName: 'firefox',
+            browserName: 'firefox'
         },
         {
-            maxInstances: 1,              // must be 1 for EdgeHtml, can be more for ChromiumEdge.
-            browserName: 'MicrosoftEdge'
-        }
+                maxInstances: 5,              // must be 1 for EdgeHtml, can be more for ChromiumEdge.
+                browserName: 'MicrosoftEdge'
+            }
     ],
     //
     // ===================
@@ -80,7 +83,7 @@ exports.config = {
     // Define all options that are relevant for the WebdriverIO instance here
     //
     // Level of logging verbosity: trace | debug | info | warn | error | silent
-    logLevel: 'info',
+    logLevel: 'warn',
     //
     // Set specific log levels per logger
     // loggers:
@@ -104,7 +107,7 @@ exports.config = {
     // with `/`, the base url gets prepended, not including the path portion of your baseUrl.
     // If your `url` parameter starts without a scheme or `/` (like `some/path`), the base url
     // gets prepended directly.
-    baseUrl: 'http://localhost',
+    baseUrl: url,
     //
     // Default timeout for all waitFor* commands.
     waitforTimeout: 10000,
@@ -120,7 +123,10 @@ exports.config = {
     // Services take over a specific job you don't want to take care of. They enhance
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
-    services: ['chromedriver', 'geckodriver', 'edgedriver'],
+    services: ['chromedriver',
+        'geckodriver',
+        'edgedriver'
+    ],
     
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber
