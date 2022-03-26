@@ -66,15 +66,14 @@ exports.config = {
         // excludeDriverLogs: ['bugreport', 'server'],
         },
 
-
-        {
-            maxInstances: 5,
-            browserName: 'firefox'
-        },
-        {
-                maxInstances: 5,              // must be 1 for EdgeHtml, can be more for ChromiumEdge.
-                browserName: 'MicrosoftEdge'
-            }
+        // {
+        //     maxInstances: 5,
+        //     browserName: 'firefox'
+        // },
+        // {
+        //         maxInstances: 5,              // must be 1 for EdgeHtml, can be more for ChromiumEdge.
+        //         browserName: 'MicrosoftEdge'
+        //     }
     ],
     //
     // ===================
