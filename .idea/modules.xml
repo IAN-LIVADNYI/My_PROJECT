@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../CODEWARS/.idea/CODEWARS.iml" filepath="$PROJECT_DIR$/../CODEWARS/.idea/CODEWARS.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/My_PROJECT.iml" filepath="$PROJECT_DIR$/.idea/My_PROJECT.iml" />
       <module fileurl="file://$PROJECT_DIR$/../group_vitalii/.idea/QA_Sociopath.iml" filepath="$PROJECT_DIR$/../group_vitalii/.idea/QA_Sociopath.iml" />
     </modules>
